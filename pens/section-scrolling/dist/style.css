@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+
+p{
+  font-size:40px;
+  font-family: 'Quicksand', sans-serif; color:#78766c;line-height:1;margin: 0 auto; position: relative; padding-top: 30px;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  text-align:center;
+}
+
+.paging {
+  position: fixed;
+  right: 10px;
+  top: 100px;
+  z-index: 9;
+}
+
+.paging span {
+  background-color: #a89773;
+  border-radius: 10px;
+  display: block;
+  cursor: pointer;
+  margin: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.paging span.active {
+  border: 4px solid #fff;
+  width: 12px;
+  height: 12px;
+}
